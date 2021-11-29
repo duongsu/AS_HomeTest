@@ -18,8 +18,8 @@ public class InventoryPage extends CommonPage {
                 .getProperty("test.configuration.loadingTimeout")), TimeUnit.SECONDS);
     }
 
-    public static final By MENU_PRODUCTS_BY = By.xpath("//a[contains(text(),'Products')]");
-    public static final By SUB_MENU_PRODUCTS_BY = By.xpath("//a/span[(text()='Products')]");
+    private static final By MENU_PRODUCTS_BY = By.xpath("//a[contains(text(),'Products')]");
+    private static final By SUB_MENU_PRODUCTS_BY = By.xpath("//a/span[(text()='Products')]");
 
     //----------------------------------------------------------------------------
 

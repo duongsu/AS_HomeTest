@@ -18,9 +18,9 @@ public class LoginPage extends CommonPage{
                 .getProperty("test.configuration.loadingTimeout")), TimeUnit.SECONDS);
     }
 
-    public static final By TXT_EMAIL_BY = By.cssSelector("input[placeholder='Email']");
-    public static final By TXT_PASSWORD_BY = By.cssSelector("input[placeholder='Password']");
-    public static final By BTN_LOG_IN_BY = By.cssSelector("button[type='submit']");
+    private static final By TXT_EMAIL_BY = By.cssSelector("input[placeholder='Email']");
+    private static final By TXT_PASSWORD_BY = By.cssSelector("input[placeholder='Password']");
+    private static final By BTN_LOG_IN_BY = By.cssSelector("button[type='submit']");
 
     //----------------------------------------------------------------------------
 

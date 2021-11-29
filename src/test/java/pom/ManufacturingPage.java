@@ -18,21 +18,21 @@ public class ManufacturingPage extends CommonPage {
                 .getProperty("test.configuration.loadingTimeout")), TimeUnit.SECONDS);
     }
 
-    public static final By TXT_PRODUCT_NAME_BY = By.xpath("//div[contains(@name, 'product_id')]//input");
-    public static final String LBL_PRODUCT_NAME_STRING = "//a[text()='%s']";
-    public static final By LK_ADD_LINE_BY = By.xpath("//a[text()='Add a line']");
-    public static final By TXT_PRODUCT_NAME_IN_LIST_BY = By.xpath("//div[contains(@class, 'list_view')]//div[contains(@name, 'product_id')]//input");
-    public static final By TXT_TO_CONSUME_BY = By.cssSelector("input[name='product_uom_qty']");
-    public static final By BTN_CONFIRM_BY = By.cssSelector("button[name='action_confirm']");
-    public static final By BTN_APPLY_BY = By.cssSelector("button[name='process']");
-    public static final By BTN_DONE_BY = By.xpath("//button/span[text()='Mark as Done']");
-    public static final By BTN_SCRAP_BY = By.cssSelector("button[name='button_scrap']");
-    public static final By BTN_UNBUILD_BY = By.cssSelector("button[name='button_unbuild']");
-    public static final By BTN_CURRENT_STATE_BY = By.cssSelector("button[title='Current state']");
-    public static final By LBL_PRODUCT_NAME_BY = By.xpath("//a[contains(@name, 'product_id')]/span");
-    public static final By LBL_PRODUCT_QUANTITY_BY = By.cssSelector("span[name='qty_producing']");
-    public static final String LBL_PRODUCT_NAME_IN_LIST_STRING = "td[title='%s']";
-    public static final By LBL_TO_CONSUME_BY = By.cssSelector("span[name='product_uom_qty']");
+    private static final By TXT_PRODUCT_NAME_BY = By.xpath("//div[contains(@name, 'product_id')]//input");
+    private static final String LBL_PRODUCT_NAME_STRING = "//a[text()='%s']";
+    private static final By LK_ADD_LINE_BY = By.xpath("//a[text()='Add a line']");
+    private static final By TXT_PRODUCT_NAME_IN_LIST_BY = By.xpath("//div[contains(@class, 'list_view')]//div[contains(@name, 'product_id')]//input");
+    private static final By TXT_TO_CONSUME_BY = By.cssSelector("input[name='product_uom_qty']");
+    private static final By BTN_CONFIRM_BY = By.cssSelector("button[name='action_confirm']");
+    private static final By BTN_APPLY_BY = By.cssSelector("button[name='process']");
+    private static final By BTN_DONE_BY = By.xpath("//button/span[text()='Mark as Done']");
+    private static final By BTN_SCRAP_BY = By.cssSelector("button[name='button_scrap']");
+    private static final By BTN_UNBUILD_BY = By.cssSelector("button[name='button_unbuild']");
+    private static final By BTN_CURRENT_STATE_BY = By.cssSelector("button[title='Current state']");
+    private static final By LBL_PRODUCT_NAME_BY = By.xpath("//a[contains(@name, 'product_id')]/span");
+    private static final By LBL_PRODUCT_QUANTITY_BY = By.cssSelector("span[name='qty_producing']");
+    private static final String LBL_PRODUCT_NAME_IN_LIST_STRING = "td[title='%s']";
+    private static final By LBL_TO_CONSUME_BY = By.cssSelector("span[name='product_uom_qty']");
 
     //----------------------------------------------------------------------------
 

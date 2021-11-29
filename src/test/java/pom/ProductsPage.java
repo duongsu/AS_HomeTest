@@ -18,7 +18,7 @@ public class ProductsPage extends CommonPage {
                 .getProperty("test.configuration.loadingTimeout")), TimeUnit.SECONDS);
     }
 
-    public static final By TXT_PRODUCT_NAME_BY = By.cssSelector("input[placeholder='Product Name']");
+    private static final By TXT_PRODUCT_NAME_BY = By.cssSelector("input[placeholder='Product Name']");
 
     //----------------------------------------------------------------------------
 

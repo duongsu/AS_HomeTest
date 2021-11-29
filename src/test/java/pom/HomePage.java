@@ -18,8 +18,8 @@ public class HomePage extends CommonPage{
                 .getProperty("test.configuration.loadingTimeout")), TimeUnit.SECONDS);
     }
 
-    public static final By LK_INVENTORY_BY = By.xpath("//div[text()='Inventory']");
-    public static final By LK_MANUFACTURING_BY = By.xpath("//div[text()='Manufacturing']");
+    private static final By LK_INVENTORY_BY = By.xpath("//div[text()='Inventory']");
+    private static final By LK_MANUFACTURING_BY = By.xpath("//div[text()='Manufacturing']");
 
     //----------------------------------------------------------------------------
 
